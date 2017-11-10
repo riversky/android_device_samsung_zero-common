@@ -104,6 +104,22 @@
 /sys/devices/system/cpu/cpu*   cpufreq/interactive/timer_rate                  0664    system  system
 /sys/devices/system/cpu/cpu*   cpufreq/interactive/timer_slack                 0664    system  system
 
+# Samsung interactive governor parameters
+/sys/devices/system/cpu/cpu*   cpufreq/interactive/cpu_util                    0664    system  system
+/sys/devices/system/cpu/cpu*   cpufreq/interactive/enforced_mode               0664    system  system
+/sys/devices/system/cpu/cpu*   cpufreq/interactive/mode                        0664    system  system
+/sys/devices/system/cpu/cpu*   cpufreq/interactive/multi_cluster0_min_freq     0664    system  system
+/sys/devices/system/cpu/cpu*   cpufreq/interactive/multi_enter_load            0664    system  system
+/sys/devices/system/cpu/cpu*   cpufreq/interactive/multi_enter_time            0664    system  system
+/sys/devices/system/cpu/cpu*   cpufreq/interactive/multi_exit_load             0664    system  system
+/sys/devices/system/cpu/cpu*   cpufreq/interactive/multi_exit_time             0664    system  system
+/sys/devices/system/cpu/cpu*   cpufreq/interactive/param_index                 0664    system  system
+/sys/devices/system/cpu/cpu*   cpufreq/interactive/single_cluster0_min_freq    0664    system  system
+/sys/devices/system/cpu/cpu*   cpufreq/interactive/single_enter_load           0664    system  system
+/sys/devices/system/cpu/cpu*   cpufreq/interactive/single_enter_time           0664    system  system
+/sys/devices/system/cpu/cpu*   cpufreq/interactive/single_exit_load            0664    system  system
+/sys/devices/system/cpu/cpu*   cpufreq/interactive/single_exit_time            0664    system  system
+
 # nexus governor parameters
 /sys/devices/system/cpu/cpu*   cpufreq/nexus/down_load                 0664    system  system
 /sys/devices/system/cpu/cpu*   cpufreq/nexus/down_step                 0664    system  system

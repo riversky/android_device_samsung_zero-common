@@ -26,6 +26,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.debuggable=1 \
 	persist.service.adb.enable=1
 
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+	persist.sys.usb.config=mtp
+
 ###############################
 # Common
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -35,7 +38,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.sys.sdcardfs=1 \
     af.fast_track_multiplier=1 \
     audio_hal.force_voice_config=wide \
-	persist.sys.usb.config=mtp \
     wifi.interface=wlan0
 
 ###############################
@@ -103,11 +105,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ###############################
 # Networking
 PRODUCT_PROPERTY_OVERRIDES += \
-	net.tcp.buffersize.default=4096,87380,256960, 4096, 16384,256960 \
-	net.tcp.buffersize.wifi=4096,87380,256960,409 6,163 84,256960 \
-	net.tcp.buffersize.umts=4096,8 7380,256960,4096,163 84,256960 \
-	net.tcp.buffersize.gprs=4096,8 7380,256960,4096,163 84,256960 \
-	net.tcp.buffersize.edge=4096,8 7380,256960,4096,163 84,256960
+	net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960 \
+	net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960 \
+	net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960 \
+	net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960 \
+	net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
 
 ###############################
 # OTA

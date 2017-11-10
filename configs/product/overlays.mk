@@ -17,7 +17,7 @@
 # Common Overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/zero-common/overlay
 
-ifneq ($(filter zerofltespr zeroltespr,$(TARGET_DEVICE)),)
+ifneq ($(filter zerofltechn zerofltespr zeroltespr,$(TARGET_DEVICE)),)
 DEVICE_PACKAGE_OVERLAYS += device/samsung/zero-common/overlay-cdma
 else
 DEVICE_PACKAGE_OVERLAYS += device/samsung/zero-common/overlay-gsm

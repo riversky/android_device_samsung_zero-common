@@ -8,7 +8,7 @@
 /dev/bcm2079x                u:object_r:nfc_device:s0
 /dev/sec-nfc                 u:object_r:nfc_device:s0
 
-/dev/ttySAC3                 u:object_r:bluetooth_device:s0
+#/dev/ttySAC3                 u:object_r:bluetooth_device:s0
 
 /dev/batch_io                u:object_r:batch_io_device:s0
 

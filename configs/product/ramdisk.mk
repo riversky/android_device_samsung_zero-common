@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     init.gps.rc \
     init.power.rc \
     init.rilchip.rc \
+    init.carrier.rc \
     init.samsungexynos7420.rc \
     init.samsungexynos7420.usb.rc \
     init.wifi.rc \
