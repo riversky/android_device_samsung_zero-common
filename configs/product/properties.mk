@@ -79,7 +79,7 @@ else
 ###############################
 # ResurrectionRemix/AOKP
 PRODUCT_PROPERTY_OVERRIDES += \
-	debug.hwc.max_hw_overlays=0 \
+	debug.hwc.max_hw_overlays=4 \
 	debug.sf.hw=1 \
 	persist.sys.ui.hw=1 \
 	debug.egl.hw=1
